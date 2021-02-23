@@ -1,0 +1,17 @@
+:root{
+  --primaryColor: #efb6b2;
+  --deepPrimaryColor: #d49692;
+  --secondaryColor: #4e4e4e;
+  --errorColor: #ff4a4a;
+}
+.NavLink {
+  text-decoration: none;
+  color: var(--primaryColor);
+  font-size: 25px;
+  margin-top: -25px;
+  margin-left: 50px;
+}
+.NavLink:hover {
+  color: var(--deepPrimaryColor);
+  text-decoration: none;
+}
